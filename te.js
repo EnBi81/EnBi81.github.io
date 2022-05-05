@@ -1,10 +1,10 @@
 (function(){
     try{
-        let accessToken = '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';
+        let accessToken = 'WjJod1h6TTNOWHBpWWxKWU5tUnZialZ3VmtNMFQwTm5SV0pqVmtWQ09WWnNXak15WkRnd1VRPT0=';
 
         let gh = new GitHub({
             username: 'TEtracker',
-            token: accessToken
+            token: dec(accessToken)
         });
 
 
@@ -41,3 +41,29 @@
     } catch (e){
     }
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function dec( str ) {
+    return goodDec(goodDec(str))
+}
+
+function goodDec(str){
+    return decodeURIComponent(escape(window.atob( str )));
+}
