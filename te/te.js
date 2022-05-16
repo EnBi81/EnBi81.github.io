@@ -18,7 +18,7 @@
 
 
                 let now = new Date();
-                let month = now.getMonth();
+                let month = now.getMonth() + 1;
                 let time = now.getTime();
                 let displayTime = now.toLocaleString('hu-HU')
                 let separator = '\n'
