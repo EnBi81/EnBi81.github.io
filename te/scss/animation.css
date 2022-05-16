@@ -1,0 +1,77 @@
+.background {
+  animation: fadeToBlack 2s forwards;
+  animation-delay: 3s;
+  filter: none;
+}
+
+@keyframes fadeToBlack {
+  from {
+    filter: none;
+  }
+  to {
+    filter: brightness(20%);
+  }
+}
+body {
+  animation: hideScroll 10ms forwards;
+  animation-delay: 7s;
+  overflow-y: hidden;
+}
+
+@keyframes hideScroll {
+  from {
+    overflow-y: hidden;
+  }
+  to {
+    overflow-y: auto;
+  }
+}
+.content {
+  animation: fadeFromInvisible 2s forwards;
+  animation-delay: 4s;
+  opacity: 0;
+}
+
+@keyframes fadeFromInvisible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.head {
+  opacity: 0;
+  animation: titleAnim 5s forwards;
+  animation-delay: 4s;
+}
+.head .arrow-down {
+  animation: down-arrow 3s forwards linear;
+  animation-delay: 7s;
+  background-position-y: 110%;
+}
+@keyframes down-arrow {
+  from {
+    background-position-y: 110%;
+  }
+  to {
+    background-position-y: 100%;
+  }
+}
+
+@keyframes titleAnim {
+  0% {
+    opacity: 0;
+    /*transform: scale(2.5) translateY(100%);*/
+  }
+  30%, 60% {
+    opacity: 1;
+    /*transform: scale(2.5) translateY(100%);*/
+  }
+  100% {
+    opacity: 1;
+    /*transform: scale(1) translateY(0);*/
+  }
+}
+
+/*# sourceMappingURL=animation.css.map */
