@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1a799cda.css",
-    "main.js": "/static/js/main.a30fd06e.js",
+    "main.js": "/static/js/main.e2b4135a.js",
     "static/media/snorlax.png": "/static/media/snorlax.c9513de2179461ff7fc8.png",
     "static/media/eevee.png": "/static/media/eevee.ab17b728c360c91d2a16.png",
     "static/media/dragon.png": "/static/media/dragon.6799e4be2bbf6cdb5bfd.png",
     "static/media/pokemon-solid.ttf": "/static/media/pokemon-solid.5d60be1f7ff5fcc21fc1.ttf",
     "index.html": "/index.html",
     "main.1a799cda.css.map": "/static/css/main.1a799cda.css.map",
-    "main.a30fd06e.js.map": "/static/js/main.a30fd06e.js.map"
+    "main.e2b4135a.js.map": "/static/js/main.e2b4135a.js.map"
   },
   "entrypoints": [
     "static/css/main.1a799cda.css",
-    "static/js/main.a30fd06e.js"
+    "static/js/main.e2b4135a.js"
   ]
 }
